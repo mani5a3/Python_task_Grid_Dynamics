@@ -22,6 +22,7 @@
 Sample outputs i am attaching below
 
     C:\support-terraform\Python_task_Grid_Dynamics>python justify.py --paragraph-string "This is a sample text but a complicated problem to be solved, so we are adding more text to see that it actually works." --paragraph-width 20
+
 Array [1] = "This is a sample    "
 Array [2] = "text but a          "
 Array [3] = "complicated problem "
@@ -31,12 +32,16 @@ Array [6] = "to see that it      "
 Array [7] = "actually works.     "
 
 C:\support-terraform\Python_task_Grid_Dynamics>python justify.py --paragraph-string "this is manikanta gaddam from epam system and working as devops engineer" --paragraph-width 20
+
+
 Array [1] = "this is manikanta   "
 Array [2] = "gaddam from epam    "
 Array [3] = "system and working  "
 Array [4] = "as devops engineer  "
 
 C:\support-terraform\Python_task_Grid_Dynamics>python justify.py --paragraph-string "this is manikantagaddam from epamsystem and working as devops engineer" --paragraph-width 20
+
+
 Array [1] = "this is             "
 Array [2] = "manikantagaddam from"
 Array [3] = "epamsystem and      "
@@ -44,12 +49,16 @@ Array [4] = "working as devops   "
 Array [5] = "engineer            "
 
 C:\support-terraform\Python_task_Grid_Dynamics>python justify.py --paragraph-string "this is manikanta gaddam from epam system and working as devops engineer" --paragraph-width 25
+
+
 Array [1] = "this is manikanta gaddam "
 Array [2] = "from epam system and     "
 Array [3] = "working as devops        "
 Array [4] = "engineer                 "
 
 C:\support-terraform\Python_task_Grid_Dynamics>python justify.py --paragraph-string "this is manikantagaddam from epamsystem and working as devops engineer" --paragraph-width 30
+
+
 Array [1] = "this is manikantagaddam from  "
 Array [2] = "epamsystem and working as     "
 Array [3] = "devops engineer               "
@@ -58,6 +67,7 @@ Array [3] = "devops engineer               "
 Unit testcases result:
 
 C:\support-terraform\Python_task_Grid_Dynamics>python -m unittest tests.test_paragraph_formatter.TestParagraphFormatter.test_justify_paragraph
+
 .
 ----------------------------------------------------------------------
 Ran 1 test in 0.000s
